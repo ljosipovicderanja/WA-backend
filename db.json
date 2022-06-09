@@ -1,152 +1,160 @@
 {
-    "Stomatoloska_ordinacija" :
-    [
-      { "id": 1,
-        "ime_ordinacije": "Ortodoncija Marelic",
-        "broj_telefona" : "051 332 332",
-        "hzzo_ugovor": "da"        
-      },
-      { "id": 2,
-        "ime_ordinacije": "Dentvitalis",
-        "broj_telefona" : "051 688 380",
-        "hzzo_ugovor": "ne"        
-      },
-      {"id": 3,
-        "ime_ordinacije": "Orto-Nova Centar Dentalne Medicine",
-        "broj_telefona" : "051 829 600",
-        "hzzo_ugovor": "da"        
-      },
-      {"id": 4,
-        "ime_ordinacije": "Dentex",
-        "broj_telefona" : "051 641 063",
-        "hzzo_ugovor": "da"        
-      }
-    ],
-
- "Adresa":
-    [
-      { "id": 1,
-        "ulica" : "Marije Krucifikse Kozulić 1",
-        "ordinacija_id" : 1       
+  "Stomatoloska_ordinacija": [
+    {
+      "id": 1,
+      "ime_ordinacije": "Ortodoncija Marelic",
+      "broj_telefona": "051 332 332",
+      "hzzo_ugovor": "da"
     },
-    { "id": 2,
-        "ulica" : "Krešimirova ul. 60",
-        "ordinacija_id" : 2       
+    {
+      "id": 2,
+      "ime_ordinacije": "Dentvitalis",
+      "broj_telefona": "051 688 380",
+      "hzzo_ugovor": "ne"
     },
-    { "id": 3,
-        "ulica" : " Lošinjska ul. 16",
-        "ordinacija_id" : 3       
+    {
+      "id": 3,
+      "ime_ordinacije": "Orto-Nova Centar Dentalne Medicine",
+      "broj_telefona": "051 829 600",
+      "hzzo_ugovor": "da"
     },
-    { "id": 4,
-        "ulica" : "Zametska ul. 1",
-        "ordinacija_id" : 4       
+    {
+      "id": 4,
+      "ime_ordinacije": "Dentex",
+      "broj_telefona": "051 641 063",
+      "hzzo_ugovor": "da"
     }
- ],
-
- "Pacijent":
- [
-   { "id": 1,
-     "ime_pacijenta": "Marko",
-     "prezime_pacijenta" : "Ivančić",
-     "hitnoća_pacijenta" : "velika"        
- },
- {  "id": 2,
-    "ime_pacijenta": "Ivana",
-    "prezime_pacijenta" : "Debelić",
-    "hitnoća_pacijenta" : "mala"        
- },
- {  "id": 3,
-    "ime_pacijenta": "Jakov",
-    "prezime_pacijenta" : "Volarić",
-    "hitnoća_pacijenta" : "srednja"        
- },
- {  "id": 4,
-    "ime_pacijenta": "Helena",
-    "prezime_pacijenta" : "Bišćan",
-    "hitnoća_pacijenta" : "mala"        
- }
-],
-
-"Ocjena":
-[
-    { "id": 1,
-     "ocjena": "1",
-     "recenzija" : null      
+  ],
+  "Adresa": [
+    {
+      "id": 1,
+      "ulica": "Marije Krucifikse Kozulić 1",
+      "ordinacija_id": 1
     },
-    { "id": 2,
-    "ocjena": "2",
-    "recenzija" : null      
+    {
+      "id": 2,
+      "ulica": "Krešimirova ul. 60",
+      "ordinacija_id": 2
     },
-    { "id": 3,
-    "ocjena": "3",
-    "recenzija" : null      
+    {
+      "id": 3,
+      "ulica": " Lošinjska ul. 16",
+      "ordinacija_id": 3
     },
-    { "id": 4,
-    "ocjena": "4",
-    "recenzija" : null      
-    },
-    { "id": 4,
-    "ocjena": "5",
-    "recenzija" : null
-    }   
-],
-
-"Recenzija":
- [
-   { "id": 1,
-     "ocjena_id": "4",
-     "recenzija" : null      
-    },
-    { "id": 2,
-    "ocjena_id": "5",
-    "recenzija" : null      
-    },
-    { "id": 3,
-    "ocjena_id": "3",
-    "recenzija" : null      
-    },
-    { "id": 4,
-    "ocjena_id": "4",
-    "recenzija" : null      
+    {
+      "id": 4,
+      "ulica": "Zametska ul. 1",
+      "ordinacija_id": 4
     }
-],
-    
-"Obrazac" :
-[
-{
-    "id" : 1,
-    "recenzija_id" : 2,
-    "ocjena_id " : 5
-},
-{
-    "id" : 2,
-    "recenzija_id" : 1,
-    "ocjena_id " : 4
-}
-
-
-],
-
-"Ocjena_pacijenta" : 
-[
-
-{
-    "id" : 1,
-    "pacijent_id" : 2,
-    "recenzija_id" : 1
-},
-
-{
-    "id" : 2,
-    "pacijent_id" : 3,
-    "recenzija_id" : 2
-},
-{
-    "id" : 3,
-    "pacijent_id" : 4,
-    "recenzija_id" : 4
-}
-
-]
-
+  ],
+  "Pacijent": [
+    {
+      "id": 1,
+      "ime_pacijenta": "Marko",
+      "prezime_pacijenta": "Ivančić",
+      "hitnoća_pacijenta": "velika"
+    },
+    {
+      "id": 2,
+      "ime_pacijenta": "Ivana",
+      "prezime_pacijenta": "Debelić",
+      "hitnoća_pacijenta": "mala"
+    },
+    {
+      "id": 3,
+      "ime_pacijenta": "Jakov",
+      "prezime_pacijenta": "Volarić",
+      "hitnoća_pacijenta": "srednja"
+    },
+    {
+      "id": 4,
+      "ime_pacijenta": "Helena",
+      "prezime_pacijenta": "Bišćan",
+      "hitnoća_pacijenta": "mala"
+    },
+    {
+      "ime_pacijenta": "Dean",
+      "prezime_pacijenta": "Babić",
+      "hitnoća_pacijenta": "velika",
+      "id": 5
+    }
+  ],
+  "Ocjena": [
+    {
+      "id": 1,
+      "ocjena": "1",
+      "recenzija": null
+    },
+    {
+      "id": 2,
+      "ocjena": "2",
+      "recenzija": null
+    },
+    {
+      "id": 3,
+      "ocjena": "3",
+      "recenzija": null
+    },
+    {
+      "id": 4,
+      "ocjena": "4",
+      "recenzija": null
+    },
+    {
+      "id": 4,
+      "ocjena": "5",
+      "recenzija": null
+    }
+  ],
+  "Recenzija": [
+    {
+      "id": 1,
+      "ocjena_id": "4",
+      "recenzija": null
+    },
+    {
+      "id": 2,
+      "ocjena_id": "5",
+      "recenzija": null
+    },
+    {
+      "id": 3,
+      "ocjena_id": "3",
+      "recenzija": null
+    },
+    {
+      "id": 4,
+      "ocjena_id": "4",
+      "recenzija": null
+    }
+  ],
+  "Obrazac": [
+    {
+      "id": 1,
+      "recenzija_id": 2,
+      "ocjena_id ": 5
+    },
+    {
+      "id": 2,
+      "recenzija_id": 1,
+      "ocjena_id ": 4
+    }
+  ],
+  "Ocjena_pacijenta": [
+    {
+      "id": 1,
+      "pacijent_id": 2,
+      "recenzija_id": 1
+    },
+    {
+      "id": 2,
+      "pacijent_id": 3,
+      "recenzija_id": 2
+    },
+    {
+      "id": 3,
+      "pacijent_id": 4,
+      "recenzija_id": 4
+    }
+  ]
 }
