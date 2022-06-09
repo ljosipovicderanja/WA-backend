@@ -1,27 +1,27 @@
 {
-    "Stomatoloska ordinacija":
+    "Stomatoloska_ordinacija" :
     [
       { "id": 1,
-        "ime_ordinacije": "Ortodoncija Marelić",
+        "ime_ordinacije": "Ortodoncija Marelic",
         "broj_telefona" : "051 332 332",
-        "hzzo_ugovor" : "da"        
-    },
-    {   "id": 2,
+        "hzzo_ugovor": "da"        
+      },
+      { "id": 2,
         "ime_ordinacije": "Dentvitalis",
         "broj_telefona" : "051 688 380",
-        "hzzo_ugovor" : "ne"        
-    },
-    {   "id": 3,
+        "hzzo_ugovor": "ne"        
+      },
+      {"id": 3,
         "ime_ordinacije": "Orto-Nova Centar Dentalne Medicine",
         "broj_telefona" : "051 829 600",
-        "hzzo_ugovor" : "da"        
-    },
-    {   "id": 4,
+        "hzzo_ugovor": "da"        
+      },
+      {"id": 4,
         "ime_ordinacije": "Dentex",
         "broj_telefona" : "051 641 063",
-        "hzzo_ugovor" : "da"        
-    }
- ],
+        "hzzo_ugovor": "da"        
+      }
+    ],
 
  "Adresa":
     [
@@ -67,14 +67,14 @@
  }
 ],
 
-"Recenzija":
- [
-   { "id": 1,
-     "ocjena": "4",
+"Ocjena":
+[
+    { "id": 1,
+     "ocjena": "1",
      "recenzija" : null      
     },
     { "id": 2,
-    "ocjena": "5",
+    "ocjena": "2",
     "recenzija" : null      
     },
     { "id": 3,
@@ -84,7 +84,69 @@
     { "id": 4,
     "ocjena": "4",
     "recenzija" : null      
+    },
+    { "id": 4,
+    "ocjena": "5",
+    "recenzija" : null
+    }   
+],
+
+"Recenzija":
+ [
+   { "id": 1,
+     "ocjena_id": "4",
+     "recenzija" : null      
+    },
+    { "id": 2,
+    "ocjena_id": "5",
+    "recenzija" : null      
+    },
+    { "id": 3,
+    "ocjena_id": "3",
+    "recenzija" : null      
+    },
+    { "id": 4,
+    "ocjena_id": "4",
+    "recenzija" : null      
     }
+],
+    
+"Obrazac" :
+[
+{
+    "id" : 1,
+    "recenzija_id" : 2,
+    "ocjena_id " : 5
+},
+{
+    "id" : 2,
+    "recenzija_id" : 1,
+    "ocjena_id " : 4
+}
+
+
+],
+
+"Ocjena_pacijenta" : 
+[
+
+{
+    "id" : 1,
+    "pacijent_id" : 2,
+    "recenzija_id" : 1
+},
+
+{
+    "id" : 2,
+    "pacijent_id" : 3,
+    "recenzija_id" : 2
+},
+{
+    "id" : 3,
+    "pacijent_id" : 4,
+    "recenzija_id" : 4
+}
+
 ]
 
 }
